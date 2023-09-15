@@ -1,0 +1,13 @@
+body{
+	display: flex;
+	flex-direction: column;
+}
+header{
+	margin: auto;
+	background-color:white;
+	border-radius: 20px;
+}
+main{
+	display: flex;
+	flex: auto;
+
