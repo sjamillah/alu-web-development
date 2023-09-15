@@ -4,10 +4,29 @@ body{
 }
 header{
 	margin: auto;
-	background-color:white;
+	background-color: white;
 	border-radius: 20px;
+}
+.logo{
+	font-size: large;
+	font-size: 30px;
+	text-decoration: none;
+	color: red;
 }
 main{
 	display: flex;
 	flex: auto;
-
+	flex-direction: row;
+	background-color: green;
+	border-radius: 30px;
+}
+article{
+	flex: 2;
+	overflow-y: auto;
+}
+aside{
+	flex: 1;
+	overflow-y: auto;
+	background-color: bisque;
+	border-radius: 25px;
+}
