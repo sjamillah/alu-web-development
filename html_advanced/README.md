@@ -9,4 +9,4 @@ This is a simple project meant to help build the strong knowledge in the web dev
 - What is an attribute
 - What the purpose of each HTML tag
 # PREVIEW OF THE PLATFORM
-/assets/school.png
+![school](https://github.com/sjamillah/alu-web-development/assets/127307233/bbd3926e-f7ac-49ac-ac3c-1a0a6de722d7)
