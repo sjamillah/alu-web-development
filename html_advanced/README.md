@@ -8,3 +8,5 @@ This is a simple project meant to help build the strong knowledge in the web dev
 -What is an element / tag
 -What is an attribute
 -What the purpose of each HTML tag
+# PREVIEW OF THE PLATFORM
+![preview of the platform image](http://www.w3.org/2000/svg)
