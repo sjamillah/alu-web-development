@@ -96,35 +96,54 @@
      .pros {
        position: absolute;
        top: 758px;
-       text-align: center;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
      }
      .pro1 {
-       position: absolute;
-       left: 217px;
-       width: 150px;
+      width: 19%;
+      margin-bottom: 7rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
      }
      .pro2 {
-      position: absolute;
-      left: 506px;
-      width: 150px;
+      width: 19%;
+      margin-bottom: 7rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     .pro3 {
-      position: absolute;
-      left: 787px;
-      width: 150px;
+      width: 19%;
+      margin-bottom: 7rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     .pro4 {
-      position: absolute;
-      left: 1076px;
-      width: 150px;
+      width: 19%;
+      margin-bottom: 7rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     .pro4 h3, .pro1 h3, .pro3 h3 {
-      left: 10%;
+      font-weight: 900;
+      font-size: 18px;
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      text-align: center;
     }
   
      .pros img{
        width: 150px;
        height: 150px;
+       border-radius: 50%;
      }
      .pros p {
        font-style: italic;
@@ -164,7 +183,8 @@
       left: 473px;
       top: 110px;
       color: white;
-      font-family: 'Source Sans Pro';
+      font-style: italic;
+      font-weight: 400;
       font-size: 22px;
      }
      .tutorials {
