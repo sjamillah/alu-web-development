@@ -100,7 +100,7 @@
        flex-direction: row;
        justify-content: center;
      }
-     .pro1 {
+     .pro_info {
       width: 19%;
       margin-bottom: 7rem;
       display: flex;
@@ -108,31 +108,7 @@
       justify-content: center;
       align-items: center;
      }
-     .pro2 {
-      width: 19%;
-      margin-bottom: 7rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .pro3 {
-      width: 19%;
-      margin-bottom: 7rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .pro4 {
-      width: 19%;
-      margin-bottom: 7rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .pro4 h3, .pro1 h3, .pro3 h3 {
+    .pro_info h3 {
       font-weight: 900;
       font-size: 18px;
       margin-top: 0.2rem;
@@ -186,6 +162,30 @@
       font-style: italic;
       font-weight: 400;
       font-size: 22px;
+      display: flex;
+      flex-direction: row;
+     }
+
+     .qText blockquote {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 34px;
+      margin-left: 0;
+     }
+
+     .qText .Person_Name{
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 34px;
+      margin-bottom: 0;
+     }
+
+     .qText .weather {
+      font-style: italic;
+     font-weight: 400;
+     font-size: 22px;
+     line-height: 34px;
+     margin-top: 0;
      }
      .tutorials {
       display: flex;
@@ -319,7 +319,6 @@
     padding-inline: 21px;
   }
   .faq{
-    font-family: "Source Sans Pro";
     position: absolute;
     width: 920px;
     height: 707px;
